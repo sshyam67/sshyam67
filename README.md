@@ -1,35 +1,79 @@
-# Hi, I'm Shyam 👋
+# Shyamkrishna Sreeramasetty
 
-I am building toward **data engineering roles**, with a focus on reliable
-pipelines, data quality, dimensional modeling, SQL, Python, and observable
-batch processing.
+Data engineering portfolio focused on reliable pipelines, data quality,
+dimensional modeling, metadata, observability, and reproducible delivery.
 
-## Featured data engineering work
+## Flagship projects
 
-| Project | What it demonstrates |
+### [CDC Lakehouse Pipeline](https://github.com/sshyam67/cdc-lakehouse-pipeline)
+
+An ordered change-data-capture workflow across bronze, silver, and gold layers.
+It demonstrates append-only event storage, idempotent replay, upserts, deletes,
+current-state modeling, deterministic aggregates, tests, and CI.
+
+### [Data Contract Guardian](https://github.com/sshyam67/data-contract-guardian)
+
+A dependency-free contract enforcement CLI for CSV data. It validates types,
+required fields, nullability, uniqueness, and numeric bounds, then detects
+breaking schema changes before deployment.
+
+### [Pipeline Observability Platform](https://github.com/sshyam67/pipeline-observability-platform)
+
+An operational monitoring pipeline that ingests run events, stores history,
+evaluates freshness, duration, volume, and success SLAs, emits machine-readable
+alerts, and publishes an HTML status view.
+
+### [Data Quality Monitor](https://github.com/sshyam67/Data-Quality-Monitor)
+
+A configuration-driven validation pipeline with row quarantine, trusted-record
+loading, source lineage, JSON quality reports, SQLite audit tables, tests, and
+GitHub Actions.
+
+## Engineering evidence
+
+| Capability | Repository evidence |
 |---|---|
-| [CDC Lakehouse Pipeline](https://github.com/sshyam67/cdc-lakehouse-pipeline) | CDC ordering, append-only bronze events, idempotent replay, upserts, deletes, and gold aggregates |
-| [Data Contract Guardian](https://github.com/sshyam67/data-contract-guardian) | Executable data contracts, schema validation, compatibility checks, and CI enforcement |
-| [Pipeline Observability Platform](https://github.com/sshyam67/pipeline-observability-platform) | Pipeline run ingestion, SLA evaluation, alert generation, operational storage, and status reporting |
-| [Story-to-Movie Studio](https://github.com/sshyam67/story-to-movie-studio) | Resumable AI-media orchestration, scene manifests, continuity metadata, subtitles, provider adapters, and FFmpeg assembly |
-| [Data Quality Monitor](https://github.com/sshyam67/Data-Quality-Monitor) | Config-driven validation, quarantine, lineage, SQLite loading, audit tables, tests, and CI |
-| [Sales Data Analysis](https://github.com/sshyam67/sales-data-analysis-project) | Raw-to-curated ETL, SQL analytics, reproducible outputs, and business-facing reporting |
-| [Global Ethical Supply Chain Tracker](https://github.com/sshyam67/Global-Ethical-Supply-Chain-Tracker) | Multi-source ingestion, supplier risk transformation, and auditable scoring |
-| [Metadata Dictionary Support](https://github.com/sshyam67/metadata-dictionary-support) | Automated schema profiling and data-dictionary generation |
+| CDC and medallion architecture | [CDC Lakehouse Pipeline](https://github.com/sshyam67/cdc-lakehouse-pipeline) |
+| Data contracts and schema evolution | [Data Contract Guardian](https://github.com/sshyam67/data-contract-guardian) |
+| Data quality and quarantine | [Data Quality Monitor](https://github.com/sshyam67/Data-Quality-Monitor) |
+| Pipeline SLAs and observability | [Pipeline Observability Platform](https://github.com/sshyam67/pipeline-observability-platform) |
+| Dimensional modeling and SQL analytics | [Sales Data Analysis](https://github.com/sshyam67/sales-data-analysis-project) |
+| Metadata profiling and documentation | [Metadata Dictionary Support](https://github.com/sshyam67/metadata-dictionary-support) |
 
-## Skills demonstrated
+## Additional projects
 
-- **Languages:** Python, SQL
-- **Data workflows:** ingestion, validation, transformation, quarantine, lineage
-- **Storage and modeling:** SQLite, relational modeling, dimensional concepts
-- **Engineering practices:** Git, automated tests, GitHub Actions, configuration-driven design
-- **Analytics:** pandas, data profiling, reproducible reporting
+- [Sales Data Analysis](https://github.com/sshyam67/sales-data-analysis-project) -
+  a 9,994-row raw-to-dimensional SQLite analytics pipeline.
+- [Global Ethical Supply Chain Tracker](https://github.com/sshyam67/Global-Ethical-Supply-Chain-Tracker) -
+  auditable supplier-risk scoring with configurable weights and run lineage.
+- [Metadata Dictionary Support](https://github.com/sshyam67/metadata-dictionary-support) -
+  automated JSON and Markdown data dictionaries from CSV schemas.
+- [Amazon Sales Dashboard](https://github.com/sshyam67/Amazon-Dashboard-Sales) -
+  a dimensional sales mart with SQL KPIs and generated HTML reporting.
+- [House Price Prediction](https://github.com/sshyam67/House-Price-Prediction) -
+  a reproducible preprocessing, training, evaluation, and artifact pipeline.
+- [Echo Emotional Memory App](https://github.com/sshyam67/Echo-Emotional-Memory-App) -
+  a privacy-first event store with batch ingestion, lineage, quality reporting,
+  schema evolution, and portable export.
+- [Story-to-Movie Studio](https://github.com/sshyam67/story-to-movie-studio) -
+  a resumable AI-media orchestration project with scene manifests, provider
+  adapters, subtitles, continuity metadata, and FFmpeg assembly.
 
-## Current learning direction
+## Technical focus
 
-I am extending these foundations toward orchestration, cloud object storage,
-Spark, dbt, and production warehouse platforms. Each repository includes a
-clear architecture, runnable example, and realistic next-production steps.
+- Python and SQL
+- CSV/JSONL ingestion and validation
+- SQLite warehouse and dimensional models
+- CDC, idempotency, lineage, quarantine, and schema evolution
+- Data contracts, metadata profiling, and pipeline SLAs
+- Unit testing, GitHub Actions, configuration-driven design, and documentation
+
+## Current direction
+
+I am extending these foundations toward Airflow or Dagster orchestration,
+Spark, dbt, cloud object storage, and production warehouse platforms. Every
+featured repository is designed to run locally, explain its architecture, pass
+automated tests, and state its limitations honestly.
 
 ## Contact
 
