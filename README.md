@@ -11,6 +11,7 @@ batch processing.
 | [CDC Lakehouse Pipeline](https://github.com/sshyam67/cdc-lakehouse-pipeline) | CDC ordering, append-only bronze events, idempotent replay, upserts, deletes, and gold aggregates |
 | [Data Contract Guardian](https://github.com/sshyam67/data-contract-guardian) | Executable data contracts, schema validation, compatibility checks, and CI enforcement |
 | [Pipeline Observability Platform](https://github.com/sshyam67/pipeline-observability-platform) | Pipeline run ingestion, SLA evaluation, alert generation, operational storage, and status reporting |
+| [Story-to-Movie Studio](https://github.com/sshyam67/story-to-movie-studio) | Resumable AI-media orchestration, scene manifests, continuity metadata, subtitles, provider adapters, and FFmpeg assembly |
 | [Data Quality Monitor](https://github.com/sshyam67/Data-Quality-Monitor) | Config-driven validation, quarantine, lineage, SQLite loading, audit tables, tests, and CI |
 | [Sales Data Analysis](https://github.com/sshyam67/sales-data-analysis-project) | Raw-to-curated ETL, SQL analytics, reproducible outputs, and business-facing reporting |
 | [Global Ethical Supply Chain Tracker](https://github.com/sshyam67/Global-Ethical-Supply-Chain-Tracker) | Multi-source ingestion, supplier risk transformation, and auditable scoring |
