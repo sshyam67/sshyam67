@@ -5,6 +5,13 @@ dimensional modeling, metadata, observability, and reproducible delivery.
 
 ## Flagship projects
 
+### [PlantGuard Lab](https://github.com/sshyam67/plantguard-lab)
+
+A reproducible computer-vision research system that tests MobileNetV3 plant-
+disease classification across 18 controlled image degradations. It combines
+leakage-aware data preparation, image-quality checks, contextual metadata,
+SQLite audit history, a Flask interface, documented ethics, tests, and CI.
+
 ### [CDC Lakehouse Pipeline](https://github.com/sshyam67/cdc-lakehouse-pipeline)
 
 An ordered change-data-capture workflow across bronze, silver, and gold layers.
@@ -33,6 +40,7 @@ GitHub Actions.
 
 | Capability | Repository evidence |
 |---|---|
+| ML robustness, traceability, and responsible AI | [PlantGuard Lab](https://github.com/sshyam67/plantguard-lab) |
 | CDC and medallion architecture | [CDC Lakehouse Pipeline](https://github.com/sshyam67/cdc-lakehouse-pipeline) |
 | Data contracts and schema evolution | [Data Contract Guardian](https://github.com/sshyam67/data-contract-guardian) |
 | Data quality and quarantine | [Data Quality Monitor](https://github.com/sshyam67/Data-Quality-Monitor) |
@@ -67,6 +75,7 @@ GitHub Actions.
 - CDC, idempotency, lineage, quarantine, and schema evolution
 - Data contracts, metadata profiling, and pipeline SLAs
 - Unit testing, GitHub Actions, configuration-driven design, and documentation
+- ML evaluation, input-quality monitoring, auditability, and responsible AI
 
 ## Current direction
 
